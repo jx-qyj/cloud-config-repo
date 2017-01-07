@@ -1,0 +1,8 @@
+my: 
+ test: fx
+spring:
+  rabbitmq:
+    host: rabbit1
+    port: 5672
+    username: admin
+    password: admin
