@@ -1,5 +1,5 @@
 my: 
- test: fx
+ test: ff
 spring:
   rabbitmq:
     host: rabbit1
