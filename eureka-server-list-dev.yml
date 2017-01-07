@@ -1,8 +1,4 @@
-my: 
- test: fx
-spring:
-  rabbitmq:
-    host: rabbit1
-    port: 5672
-    username: admin
-    password: admin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
